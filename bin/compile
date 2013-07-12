@@ -5,13 +5,13 @@
 set -e
 
 # config
-APACHE_VERSION="2.4.3"
+APACHE_VERSION="2.4.4"
 APACHE_PATH="apache"
-PHP_VERSION="5.4.11"
+PHP_VERSION="5.5.0"
 PHP_PATH="php"
-BUILDPACK_VERSION="2.0-a9"
+BUILDPACK_VERSION="3.0-a1"
 BP_URL="https://s3.amazonaws.com/licorice-labs-buildpacks/apache-$APACHE_VERSION-php-$PHP_VERSION-v$BUILDPACK_VERSION.tar.gz"
-OPT_BUILDPACK_URL="http://vulcan-stristr.herokuapp.com/output/fa456603-0c35-46c8-9a75-6c8fa8b168dd"
+OPT_BUILDPACK_URL="http://vulcan-stristr.herokuapp.com/output/39cf6649-066c-4da4-9630-ecb481db987a"
 
 BIN_DIR=$(dirname $0)
 BUILD_DIR=$1
